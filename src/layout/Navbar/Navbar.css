@@ -1,0 +1,15 @@
+:root{
+    --first: orange;
+    --sacend: rgb(163, 163, 163);
+    --last: rgb(198, 196, 196);
+}
+.navBtn{
+    background-image: linear-gradient(to right, var(--first), var(--sacend), var(--last));
+}
+.logoText::after{
+    position: absolute;
+    background-color: green;
+    width: 5px;
+    height: 5px;
+    z-index: 10;
+}
