@@ -80,8 +80,6 @@ const LargNavbar = () => {
                         </div>
                     </nav>
             }
-
-
         </>
     );
 }

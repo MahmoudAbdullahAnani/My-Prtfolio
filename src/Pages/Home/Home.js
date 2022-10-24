@@ -1,11 +1,16 @@
 import React from "react";
 import "./Home.css"
 const Home = () => {
-  return ( 
+  return (
     <div className="Home">
-      Home
+      <div className="typewriter pt-5 ps-5">
+        <h1 className="fw-bold mt-5 text-white ">Mahmoud Abdullah</h1>
+      </div>
+      <div className="typewriter  ps-5">
+        <h4 className="fw-bold mt-3">Frontend Web Developer</h4>
+      </div>
     </div>
-   );
+  );
 }
  
 export default Home;

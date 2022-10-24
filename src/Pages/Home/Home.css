@@ -1,3 +1,46 @@
 .Home{
   background-image: url("../Images/Cracking-the-code.jpg");
 }
+
+.typewriter:hover h1{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.typewriter h1:hover{
+  transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h4 {
+  width: fit-content;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  /*Ensuresthecontentisnotrevealeduntiltheanimation*/border-right: .15em solid orange;
+  white-space: nowrap;
+  /*Keepsthecontentonasingleline*/margin: 0 auto;
+  /*Givesthatscrollingeffectasthetypinghappens*/letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+.typewriter{
+  width: fit-content;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
