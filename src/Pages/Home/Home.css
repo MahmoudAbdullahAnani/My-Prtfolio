@@ -37,9 +37,8 @@
   font-family: monospace;
   overflow: hidden;
   /*Ensuresthecontentisnotrevealeduntiltheanimation*/border-right: .15em solid orange;
-  white-space: nowrap;
+  white-space: wrap;
   /*Keepsthecontentonasingleline*/margin: 0 auto;
-  /*Givesthatscrollingeffectasthetypinghappens*/letter-spacing: .15em;
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
