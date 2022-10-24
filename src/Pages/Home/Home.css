@@ -1,6 +1,6 @@
 .Home{
   background-image: url("../Images/Cracking-the-code.jpg");
-  height: calc(100vh - 118px);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,8 +37,9 @@
   font-family: monospace;
   overflow: hidden;
   /*Ensuresthecontentisnotrevealeduntiltheanimation*/border-right: .15em solid orange;
-  white-space: wrap;
+  white-space: nowrap;
   /*Keepsthecontentonasingleline*/margin: 0 auto;
+  /*Givesthatscrollingeffectasthetypinghappens*/
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
