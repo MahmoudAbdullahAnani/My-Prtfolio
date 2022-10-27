@@ -3,7 +3,7 @@ import Site from "./Site";
 import './SocialMedia.css'
 const SocialMedia = () => {
   return (
-    <div className="SocialMedia d-flex gap-3 mt-4  rounded">
+    <div className="SocialMedia justify-content-center  d-flex gap-3 mt-4  rounded">
       <div className="hit  rounded bg-white">
         <div className="p-2  rounded reotre bg-secondary bg-gradient">
           <Site

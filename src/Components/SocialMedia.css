@@ -6,6 +6,9 @@
   -o-transform: rotate(45deg);
   border: 1px solid white;
 }
+.SocialMedia{
+  width: fit-content;
+}
 .reotre:hover{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
