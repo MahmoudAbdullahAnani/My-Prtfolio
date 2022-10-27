@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <SocialMedia />
         </div>
-        <div className="ms-5">
+        <div className="ms-4">
           <PDFCV />
         </div>
       </div>

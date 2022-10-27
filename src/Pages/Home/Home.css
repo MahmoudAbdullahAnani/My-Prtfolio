@@ -3,7 +3,7 @@
     --navName: #262834;
 }
 .Home{
-  background-image: url("../../Image/Home-Avtar.jpg");
+  background: url("../../Image/Home-Avtar.jpg") center ;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
