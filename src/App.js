@@ -4,6 +4,7 @@ import LargNavbar from './layout/Navbar/Navbar';
 import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import CopyRight from './layout/Footer/CopyRight';
+import About from './Pages/About/About';
 function App() {
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
           path="/about"
           element={
             <>
-              <h1 className="text-white">about</h1>
+              <About />
             </>
           }
         />
