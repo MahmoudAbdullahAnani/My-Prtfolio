@@ -8,7 +8,7 @@ const PDFCV = () => {
           className=""
           download="Mahmoud Abdullah Anani.pdf"
         >
-          <button type="button" class="fs-5 fw-bold btn btn-primary">
+          <button type="button" className="fs-5 fw-bold btn btn-primary">
             Download My CV
           </button>
         </a>

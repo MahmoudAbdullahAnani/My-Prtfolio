@@ -1,7 +1,18 @@
-.reotre:hover {
+.hit:hover{
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
+  border: 1px solid white;
+}
+.reotre:hover{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.hit {
+  max-height: 49px;
 }

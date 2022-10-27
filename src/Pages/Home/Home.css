@@ -1,3 +1,7 @@
+:root {
+    --priName: #56cbdb;
+    --navName: #262834;
+}
 .Home{
   background-image: url("../Images/Cracking-the-code.jpg");
   height: 100vh;
@@ -9,24 +13,40 @@
 }
 
 .typewriter h1:hover{
-  animation: rotate .5s ease alternate-reverse;
-  -webkit-animation: rotate .5s ease alternate-reverse;
+  color: var(--navName) !important;
+  text-shadow: 0 0 2px var(--priName),0 0 2px var(--priName),0 0 2px var(--priName),0 0 2px var(--priName);
+  animation: rotate .5s ease ;
+  -webkit-animation: rotate .5s ease ;
 }
 
 @keyframes rotate{
-  form{
+  0%{
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
-  }
-  to{
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+}
+  33%{
+  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+}
+66%{
+    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+}
+100%{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 }
 
