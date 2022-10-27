@@ -3,7 +3,7 @@
     --navName: #262834;
 }
 .Home{
-  background-image: url("../Images/Cracking-the-code.jpg");
+  background-image: url("../../Image/Home-Avtar.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +11,11 @@
 *{
   transition-duration: .4s;
 }
-
+.typewriter h1,
+.typewriter h4
+{
+  text-shadow: 0 0 20px black;
+}
 .typewriter h1:hover{
   color: var(--navName) !important;
   text-shadow: 0 0 2px var(--priName),0 0 2px var(--priName),0 0 2px var(--priName),0 0 2px var(--priName);
