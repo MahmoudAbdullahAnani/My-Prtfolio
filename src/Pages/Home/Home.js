@@ -5,14 +5,20 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="Home">
-      <div className="typewriter pt-5 ps-5">
-        <h1 className="fw-bold mt-5 text-white p-3 ">Mahmoud Abdullah</h1>
+      <div className="container">
+        <div className="ms-5 container">
+          <div className="typewriter pt-5 ">
+            <h1 className="fw-bold mt-5 text-white  ">Mahmoud Abdullah</h1>
+          </div>
+          <div className="typewriter  ">
+            <h4 className="fw-bold  mt-2">Frontend Web Developer.</h4>
+          </div>
+          <SocialMedia />
+        </div>
+        <div className="ms-5">
+          <PDFCV />
+        </div>
       </div>
-      <div className="typewriter  ps-2">
-        <h4 className="fw-bold ms-4 mt-2">Frontend Web Developer.</h4>
-      </div>
-      <SocialMedia />
-      <PDFCV />
     </div>
   );
 };
