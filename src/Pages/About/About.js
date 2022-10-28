@@ -1,6 +1,21 @@
 import React from "react";
 import Skill from "../../Components/Skill";
 import logo from "../../Image/Home-Avtar.jpg";
+import './About.css'
+// Get All Skills for Images
+import html from '../../Image/Skills/html.png'
+import css from "../../Image/Skills/css.png";
+import js from "../../Image/Skills/js.jpg";
+import bootstrap from "../../Image/Skills/bootstrap.png";
+import json from "../../Image/Skills/json.png";
+// import matcss from "../../Image/Skills/matcss.png";
+import next from "../../Image/Skills/next.png";
+import npmImg from "../../Image/Skills/npm.svg";
+import react from "../../Image/Skills/react.png";
+import redux from "../../Image/Skills/redux.png";
+import sass from "../../Image/Skills/sass.png";
+import ts from "../../Image/Skills/ts.png";
+
 const About = () => {
   return (
     <div className="text-white bg-dark">
@@ -38,10 +53,10 @@ const About = () => {
           </div>
         </div>
         <div className="col-11 col-md-6 mt-lg-4">
-          <div>
+          <div className="contenarTitle">
             <div className="d-flex align-items-center ">
               <h1 className="text-danger fw-bold m-0">Who am I &nbsp;</h1>
-              <span className="fs-1 fw-bold"> ?</span>
+              <span className="fs-1 contenarTitleSpan fw-bold"> ?</span>
             </div>
             <p className="fs-6 ms-2 fw-bolder">
               Hello there, My name is Mahmoud Abdullah Anani, I'm a 2-year
@@ -58,7 +73,7 @@ const About = () => {
               skills, to make the best use of all what I have learned.
             </p>
           </div>
-          <div>
+          <div className="contenarTitle">
             <div className="d-flex align-items-center ">
               <h1 className="text-danger fw-bold m-0">Education </h1>
               <span className="fs-1 fw-bold">:-</span>
@@ -68,17 +83,17 @@ const About = () => {
               of Commerce and Computers - 2019 - 2022.
             </p>
           </div>
-          <div>
-            <div className="d-flex align-items-center ">
+          <div className="contenarTitle">
+            <div className="d-flex  align-items-center ">
               <h1 className="text-danger m-0 fw-bold">Experience </h1>
               <span className="fs-1 fw-bold">:-</span>
             </div>
             <p className="fs-6 ms-2 fw-bolder">
-              1) Frontend Web Developer at Add Samy, Full-Time, April 2022 -
+              1) Frontend Web Developer at Ad Samy, Full-Time, April 2022 -
               Mar2022 & Jun2022.
             </p>
           </div>
-          <div>
+          <div className="contenarTitle">
             <div className="d-flex align-items-center ">
               <h1 className="text-danger m-0 fw-bold">Certificates </h1>
               <span className="fs-1 fw-bold">:-</span>
@@ -107,25 +122,18 @@ const About = () => {
       </div>
       <p className="fs-1 fw-bold text-center mt-5">My Skills</p>
       <div className="m-auto">
-        <div className="d-flex col-12 flex-wrap container justify-content-start">
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
-          <Skill alt=".." src="..." skill="skill" />
+        <div className="d-flex gap-3 py-5 col-12 flex-wrap container justify-content-start">
+          <Skill src={html} alt="html" skill="HTML5" />
+          <Skill src={css} alt="css" skill="CSS3" />
+          <Skill src={js} alt="js" skill="Javascript" />
+          <Skill src={bootstrap} alt="bootstrap" skill="Bootstrap" />
+          <Skill src={json} alt="json" skill="JSON Object" />
+          <Skill src={next} alt="next" skill="Next JS" />
+          <Skill src={npmImg} alt="npm" skill="npm" />
+          <Skill src={react} alt="react" skill="React JS" />
+          <Skill src={redux} alt="redux" skill="Redux" />
+          <Skill src={sass} alt="sass" skill="Sass" />
+          <Skill src={ts} alt="typescript" skill="type Script" />
         </div>
       </div>
     </div>

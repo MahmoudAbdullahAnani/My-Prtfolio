@@ -1,0 +1,26 @@
+.contenarTitle>div:hover span{
+  position: relative;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  animation: titles .7s ease alternate;
+  -webkit-animation: titles .7s ease alternate;
+}
+
+
+@keyframes titles {
+  0%{left: 10px;}
+  10%{left: 20px;}
+  20%{left: 30px;}
+  30%{left: 40px;}
+  40%{left: 50px;}
+  50%{left: 60px;}
+  60%{left: 70px;}
+  70%{left: 60px;}
+  80%{left: 50px;}
+  90%{left: 30px;}
+  95%{left: 15px;}
+  100%{left: 0px;}
+}

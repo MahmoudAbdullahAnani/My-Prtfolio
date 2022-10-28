@@ -19,3 +19,20 @@
 .hit {
   max-height: 49px;
 }
+/* Start Skills Images */
+.contenarImage {
+  max-width: 70px;
+}
+.contenarSkills{
+  background: #262834;
+  cursor: pointer;
+}
+.contenarSkills:hover {
+  background: #17181f;
+}
+@media (max-width: 769px) {
+  .contenarSkills{
+    width: 100%;
+  }
+}
+/* End Skills Images */
