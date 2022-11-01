@@ -23,12 +23,14 @@
 .contenarImage {
   max-width: 70px;
 }
+.contenarSkills>h5{
+  cursor: default;
+}
 .contenarSkills{
   background: #262834;
-  cursor: pointer;
 }
 .contenarSkills:hover {
-  background: #17181f;
+  background: #3d457d;
 }
 @media (max-width: 769px) {
   .contenarSkills{
