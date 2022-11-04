@@ -5,6 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import CopyRight from './layout/Footer/CopyRight';
 import About from './Pages/About/About';
+import Blogs from './Pages/Blogs/Blogs'
+import Projects from './Pages/Projects/Projects';
 function App() {
   return (
     <>
@@ -31,7 +33,7 @@ function App() {
           path="/projects"
           element={
             <>
-              <h1 className="text-white">projects</h1>
+              <Projects/>
             </>
           }
         />
@@ -39,7 +41,7 @@ function App() {
           path="/blogs"
           element={
             <>
-              <h1 className="text-white">blogs</h1>
+              <Blogs />
             </>
           }
         />

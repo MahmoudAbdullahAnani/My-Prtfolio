@@ -8,7 +8,6 @@ import css from "../../Image/Skills/css.png";
 import js from "../../Image/Skills/js.jpg";
 import bootstrap from "../../Image/Skills/bootstrap.png";
 import json from "../../Image/Skills/json.png";
-// import matcss from "../../Image/Skills/matcss.png";
 import next from "../../Image/Skills/next.png";
 import npmImg from "../../Image/Skills/npm.svg";
 import react from "../../Image/Skills/react.png";

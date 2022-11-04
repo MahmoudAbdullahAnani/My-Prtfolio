@@ -8,7 +8,9 @@
   animation: titles .7s ease alternate;
   -webkit-animation: titles .7s ease alternate;
 }
-
+.contenarTitle > div {
+  width: fit-content;
+}
 
 @keyframes titles {
   0%{left: 10px;}
