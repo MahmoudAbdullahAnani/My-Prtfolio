@@ -4,7 +4,7 @@ const PDFCV = () => {
     <>
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
-          href="http://download1493.mediafire.com/ah2dpcozue0g/owgtfelqiknzi4x/Mahmoud+Abdullah+Anani%282%29.pdf"
+          href="https://download1493.mediafire.com/ah2dpcozue0g/owgtfelqiknzi4x/Mahmoud+Abdullah+Anani%282%29.pdf"
           className=""
           download="Mahmoud Abdullah Anani.pdf"
         >
