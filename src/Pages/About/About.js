@@ -1,9 +1,9 @@
 import React from "react";
 import Skill from "../../Components/Skill";
 import logo from "../../Image/Home-Avtar.jpg";
-import './About.css'
+import "./About.css";
 // Get All Skills for Images
-import html from '../../Image/Skills/html.png'
+import html from "../../Image/Skills/html.png";
 import css from "../../Image/Skills/css.png";
 import js from "../../Image/Skills/js.jpg";
 import bootstrap from "../../Image/Skills/bootstrap.png";
@@ -43,7 +43,7 @@ const About = () => {
                 <span className="fw-normal">mahmoud18957321@gmail.com</span>
               </p>
               <p className="fw-bold m-2 fs-6">
-                Address:
+                Address:{" "}
                 <span className="fw-normal">
                   Al-Rahmaniya , Mit Ghamr, Dakahlia, Egypt
                 </span>

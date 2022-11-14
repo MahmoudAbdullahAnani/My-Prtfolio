@@ -10,14 +10,19 @@ import Projects from './Pages/Projects/Projects';
 function App() {
   return (
     <>
-      
-      <LargNavbar />
       <Routes>
         <Route
           path="/"
           element={
             <>
-              <Home/>
+              <LargNavbar
+                actHome="nav-link text-white"
+                actAbout="nav-link text-white-50"
+                actProjects="nav-link text-white-50"
+                actBlogs="nav-link text-white-50"
+                actContact="nav-link text-white-50"
+              />
+              <Home />
             </>
           }
         />
@@ -25,6 +30,13 @@ function App() {
           path="/about"
           element={
             <>
+              <LargNavbar
+                actHome="nav-link text-white-50"
+                actAbout="nav-link text-white"
+                actProjects="nav-link text-white-50"
+                actBlogs="nav-link text-white-50"
+                actContact="nav-link text-white-50"
+              />
               <About />
             </>
           }
@@ -33,7 +45,14 @@ function App() {
           path="/projects"
           element={
             <>
-              <Projects/>
+              <LargNavbar
+                actHome="nav-link text-white-50"
+                actAbout="nav-link text-white-50"
+                actProjects="nav-link text-white"
+                actBlogs="nav-link text-white-50"
+                actContact="nav-link text-white-50"
+              />
+              <Projects />
             </>
           }
         />
@@ -41,6 +60,13 @@ function App() {
           path="/blogs"
           element={
             <>
+              <LargNavbar
+                actHome="nav-link text-white-50"
+                actAbout="nav-link text-white-50"
+                actProjects="nav-link text-white-50"
+                actBlogs="nav-link text-white"
+                actContact="nav-link text-white-50"
+              />
               <Blogs />
             </>
           }
@@ -49,12 +75,19 @@ function App() {
           path="/contact"
           element={
             <>
+              <LargNavbar
+                actHome="nav-link text-white-50"
+                actAbout="nav-link text-white-50"
+                actProjects="nav-link text-white-50"
+                actBlogs="nav-link text-white-50"
+                actContact="nav-link text-white"
+              />
               <h1 className="text-white">contact</h1>
             </>
           }
         />
       </Routes>
-      <CopyRight/>
+      <CopyRight />
     </>
   );
 }

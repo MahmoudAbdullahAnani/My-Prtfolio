@@ -24,12 +24,15 @@ export default function RecipeReviewCard(props) {
           </Avatar>
         }
       />
-      <CardMedia
-        component="img"
-        height="194"
-        image={props.image}
-        alt={props.alt}
-      />
+      <div className="overflow-hidden conenarImg">
+        <CardMedia
+          className="prjctImg"
+          component="img"
+          height="194"
+          image={props.image}
+          alt={props.alt}
+        />
+      </div>
       <CardContent>
         <Typography className="fs-3" variant="body2">
           {props.title}

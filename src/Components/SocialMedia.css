@@ -19,6 +19,21 @@
 .hit {
   max-height: 49px;
 }
+.whatsapp{
+  background-color: #4ac958;
+}
+.github{
+  background-color: #111315;
+
+}
+.linkedin{
+  background-color: #0c64c5;
+
+}
+.youtube{
+  background-color: #fe0000;
+
+}
 /* Start Skills Images */
 .contenarImage {
   max-width: 70px;
