@@ -25,6 +25,9 @@ code {
   color: #000000 !important;
 }
 .contact{
+  height: 100vh;
+}
+.contact>div{
   height: 100%;
 }
 .rat svg{
