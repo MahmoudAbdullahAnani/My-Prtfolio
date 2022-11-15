@@ -7,6 +7,7 @@ import CopyRight from './layout/Footer/CopyRight';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs'
 import Projects from './Pages/Projects/Projects';
+import Contacat from './Pages/contact/Contact';
 function App() {
   return (
     <>
@@ -82,7 +83,7 @@ function App() {
                 actBlogs="nav-link text-white-50"
                 actContact="nav-link text-white"
               />
-              <h1 className="text-white">contact</h1>
+              <Contacat />
             </>
           }
         />

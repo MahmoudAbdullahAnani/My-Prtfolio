@@ -14,7 +14,7 @@ import react from "../../Image/Skills/react.png";
 import redux from "../../Image/Skills/redux.png";
 import sass from "../../Image/Skills/sass.png";
 import ts from "../../Image/Skills/ts.png";
-
+import InformationMe from "../../Data/InformationMe";
 const About = () => {
   return (
     <div className="text-white bg-dark">
@@ -28,27 +28,7 @@ const About = () => {
                 alt="Mahmoud Abdullah Anani"
               />
             </div>
-            <div className="mt-4">
-              <p className="fw-bold m-2 fs-6">
-                Name: <span className="fw-normal">Mahmoud Abdullah Anani</span>
-              </p>
-              <p className="fw-bold m-2 fs-6">
-                Birth Date: <span className="fw-normal">May 28th 2002</span>
-              </p>
-              <p className="fw-bold m-2 fs-6">
-                Phone Number: <span className="fw-normal">+01028876202</span>
-              </p>
-              <p className="fw-bold d-flex gap-2 m-2 fs-6">
-                Gmail:
-                <span className="fw-normal">mahmoud18957321@gmail.com</span>
-              </p>
-              <p className="fw-bold m-2 fs-6">
-                Address:{" "}
-                <span className="fw-normal">
-                  Al-Rahmaniya , Mit Ghamr, Dakahlia, Egypt
-                </span>
-              </p>
-            </div>
+            <InformationMe />
           </div>
         </div>
         <div className="col-11 col-md-6 mt-lg-4">

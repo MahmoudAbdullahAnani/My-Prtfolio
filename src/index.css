@@ -15,3 +15,16 @@ code {
 *::selection{
   background-color: transparent;
 }
+.InptCon:focus {
+  background-color: #eee;
+}
+.InptCon {
+  background-color: rgb(175, 172, 172);
+}
+.InptCon > label {
+  color: #000000 !important;
+  text-shadow: 0 0 2px #1e252b !important;
+}
+.contact{
+  height: 100vh;
+}
