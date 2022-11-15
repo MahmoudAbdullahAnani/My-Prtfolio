@@ -80,7 +80,7 @@ const ContactUs = () => {
       </div>
       <input
         type="submit"
-        className="w-100 mt-1  text-white py-2  px-3 border-0 rounded bg-primary "
+        className="w-100 mt-1  text-white py-2 mb-5 px-3 border-0 rounded bg-primary "
         value="Send"
       />
     </form>
