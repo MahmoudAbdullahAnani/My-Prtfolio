@@ -26,17 +26,22 @@ export default function RecipeReviewCard(props) {
       />
       <div className="overflow-hidden conenarImg">
         <CardMedia
-          className="prjctImg"
+          // className="rounded"
+          loading="Lazy"
+          className="prjctImg rounded"
           component="img"
           height="194"
           image={props.image}
           alt={props.alt}
         />
       </div>
-      <CardContent>
+      <CardContent className="pb-0 ps-0">
         <Typography className="fs-3" variant="body2">
           {props.title}
         </Typography>
+        <h6 className="ps-2 text-secondary pe-0">
+          {props.discraption}
+        </h6>
       </CardContent>
       <CardActions className="d-flex justify-content-around" disableSpacing>
         <IconButton aria-label="add to favorites">
