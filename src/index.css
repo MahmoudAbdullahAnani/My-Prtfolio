@@ -23,8 +23,10 @@ code {
 }
 .InptCon > label {
   color: #000000 !important;
-  text-shadow: 0 0 2px #1e252b !important;
 }
 .contact{
-  height: 100vh;
+  height: 100%;
+}
+.rat svg{
+  color: yellow;
 }
