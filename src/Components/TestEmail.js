@@ -1,18 +1,21 @@
-import  React, { useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Swal from "sweetalert2";
+import { useState } from "react";
 
 const ContactUs = () => {
-      const [value, setValue] = React.useState(2);
+  const [value, setValue] = React.useState(2);
+  const [Name, setName] = useState("");
+  const [Email, setEmail] = useState("");
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    if (Name !== '' & Email !== '') {
     emailjs
       .sendForm(
         "service_mrbbap9",
@@ -26,17 +29,28 @@ const ContactUs = () => {
         },
         (error) => {
           console.log(error.text);
-          }
-    
+        }
       );
-      e.target.reset()
-      Swal.fire({
-        position: "top-end",
-        icon: "success",
-        title: "sent succesfully🎉",
-        showConfirmButton: false,
-        timer: 1500,
-      });
+      setName('')
+      setEmail('')
+    e.target.reset();
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "sent succesfully🎉",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+    } else {
+    Swal.fire({
+      position: "top-end",
+      icon: "error",
+      title: "Send Failed",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+    }
+
   };
 
   return (
@@ -44,6 +58,7 @@ const ContactUs = () => {
       <div className="d-flex flex-column">
         <label>Name</label>
         <input
+          onChange={(e) => setName(e.target.value)}
           type="text"
           name="user_name"
           className="py-1 px-2 border-0 rounded"
@@ -52,6 +67,7 @@ const ContactUs = () => {
       <div className="d-flex flex-column">
         <label>Email</label>
         <input
+          onChange={(e) => setEmail(e.target.value)}
           type="email"
           name="user_email"
           className="py-1 px-2 border-0 rounded"
