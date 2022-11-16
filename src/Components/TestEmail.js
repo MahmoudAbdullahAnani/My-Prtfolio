@@ -40,7 +40,7 @@ const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="mb-4">
+    <form ref={form} onSubmit={sendEmail} className="mb-4 lh-lg">
       <div className="d-flex flex-column">
         <label>Name</label>
         <input

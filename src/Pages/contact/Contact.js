@@ -13,7 +13,7 @@ const Contacat = () => {
             className="w-25 h-25"
             alt="logo-mahmoud_abdullah_anani"
           />
-          <div className="container row justify-content-around gap-5 mx-auto mt-2 p-5 text-white ">
+          <div className="container d-flex flex-wrap justify-content-around gap-5 mx-auto mt-2  text-white p-2">
             <div className="col col-11 col-md-5">
               <InformationMe />
               <SocialMedia />
