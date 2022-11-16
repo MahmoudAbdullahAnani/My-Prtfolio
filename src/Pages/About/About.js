@@ -14,6 +14,13 @@ import react from "../../Image/Skills/react.png";
 import redux from "../../Image/Skills/redux.png";
 import sass from "../../Image/Skills/sass.png";
 import ts from "../../Image/Skills/ts.png";
+import restApi from "../../Image/Skills/rest-api-icon.webp";
+import github from "../../Image/Skills/githun.png";
+import es6 from "../../Image/Skills/es6.png";
+import dom from "../../Image/Skills/Dom.jpg";
+import ajax from "../../Image/Skills/AJAX_logo_by_gengns.svg.png";
+import tailwind from "../../Image/Skills/tailwind.png";
+import wowjs from "../../Image/Skills/wow-logo.jpg";
 import InformationMe from "../../Data/InformationMe";
 const About = () => {
   return (
@@ -110,9 +117,16 @@ const About = () => {
           <Skill src={next} alt="next" skill="Next JS" />
           <Skill src={npmImg} alt="npm" skill="npm" />
           <Skill src={react} alt="react" skill="React JS" />
-          <Skill src={redux} alt="redux" skill="Redux" />
+          <Skill src={redux} alt="redux" skill="Redux-Toolkit" />
           <Skill src={sass} alt="sass" skill="Sass" />
           <Skill src={ts} alt="typescript" skill="type Script" />
+          <Skill src={restApi} alt="RestAPIs" skill="Rest APIs" />
+          <Skill src={github} alt="GitHub" skill="Git & GitHub" />
+          <Skill src={es6} alt="ES6" skill="ES6" />
+          <Skill src={dom} alt="DOM" skill="Dom" />
+          <Skill src={ajax} alt="AJAX" skill="Ajax" />
+          <Skill src={tailwind} alt="Tailwind" skill="Tailwind" />
+          <Skill src={wowjs} alt="wowjs" skill="WOW JS" />
         </div>
       </div>
     </div>

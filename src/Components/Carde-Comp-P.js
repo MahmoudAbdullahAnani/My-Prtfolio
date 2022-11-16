@@ -33,10 +33,11 @@ export default function RecipeReviewCard(props) {
           alt={props.alt}
         />
       </div>
-      <CardContent>
-        <Typography className="fs-5" variant="body2">
+      <CardContent className="p-0 pt-2 ">
+        <Typography className="fs-5 fw-bold " variant="body2">
           {props.title}
         </Typography>
+        <h6 className="ps-2 mt-1 text-secondary">{props.dicreption}</h6>
       </CardContent>
       <CardActions className="d-flex justify-content-around" disableSpacing>
         <IconButton aria-label="add to favorites">

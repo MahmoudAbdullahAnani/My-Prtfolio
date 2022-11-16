@@ -31,3 +31,6 @@ code {
 .rat svg{
   color: yellow;
 }
+.logoNav {
+  max-width: 5rem;
+}
