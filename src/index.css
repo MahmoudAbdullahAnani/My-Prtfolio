@@ -34,3 +34,15 @@ code {
 .logoNav {
   max-width: 5rem;
 }
+/* ::-webkit-scrollbar-track {
+} */
+::-webkit-scrollbar-thumb{
+  width: 1000px;
+  background-color: red;
+  
+  color: black;
+} 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
