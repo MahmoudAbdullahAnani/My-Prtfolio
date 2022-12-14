@@ -5,7 +5,7 @@ const PDFCV = () => {
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
-          href="https://doc-10-30-apps-viewer.googleusercontent.com/viewer/secure/pdf/h1ig076jtb5c4cmj26fcnooudmck7ihg/ceijphf4lansg60osr03m12k02rqidee/1670994675000/drive/07535918079148634039/ACFrOgCSESBGlmZZsRmOn2S_YrnlFCofaFJKDeEPqQGA67-C_elND6G2sRLTefbyaj6ES4__pMfUiUU2iPgSNQzlzDMKfv3ENpFSw6BULyGPs0usqfuTWxkkrR8fho_kagmBVGS-YszQYaPo__yz?print=true&nonce=hncitsd0v9510&user=07535918079148634039&hash=urki7afu8116pj47vv40rdurn3aqbkk1"
+          href="https://doc-04-30-apps-viewer.googleusercontent.com/viewer/secure/pdf/h1ig076jtb5c4cmj26fcnooudmck7ihg/ea5t42fvg60g4pg9ap5pjtu4l49hldvs/1670994825000/drive/07535918079148634039/ACFrOgBR2fGV9oDZ0ZiMuA9znMhgxWdjd_VuFxFLJSYvmJrAv5B77L7pZ2YyYOexT6YyniR4A3Yhe693s-lWrzOSxfTFpUBfaBxxieUEwiUggd2JmLqBJzQCt8WuGev4szEqeqc1DNPUVvQx1gLW?print=true"
           className=""
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
