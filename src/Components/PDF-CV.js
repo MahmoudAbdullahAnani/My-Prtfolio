@@ -4,9 +4,9 @@ const PDFCV = () => {
     <>
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
-          href="http://download1493.mediafire.com/piuiug6dtcjg/owgtfelqiknzi4x/Mahmoud+Abdullah+Anani%282%29.pdf"
+          href="./Mahmoud-Abdullah-Anani.pdf"
           className=""
-          download="Mahmoud Abdullah Anani.pdf"
+          download="Mahmoud-Abdullah-Anani.pdf"
         >
           <button type="button" className="fs-5 fw-bold btn btn-primary">
             Download My CV
