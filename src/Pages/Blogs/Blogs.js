@@ -5,6 +5,12 @@ import Hoisting from "../../Image/Blogs/305101572_174922891764007_24806895771010
 import roadmapreact from "../../Image/Blogs/roadmap-react.jpg";
 import reactStyles from "../../Image/Blogs/React-Styles.jpeg";
 import "./Blogs.css";
+import selectCSS from "../../Image/Blogs/selector.png";
+import mathFunJS from "../../Image/Blogs/JavaScript-Math-Functions.jpg";
+import stringFunJS from "../../Image/Blogs/JavaScript-String-Functions.jpg";
+import arryFunJS from "../../Image/Blogs/array-js.jpg";
+import numFunJS from "../../Image/Blogs/number-formatting-in-javascript.webp";
+import backReact5 from "../../Image/Blogs/back-react.jpg";
 const Blogs = () => {
   const selector = `You have met selectors already. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.`;
   const math = `Math is a built-in object that has properties and methods for mathematical constants and functions. It's not a function object.`;
@@ -27,28 +33,28 @@ higher order comp , render props , context Api , and Pure Comp`;
       <div className="container py-4 row justify-content-around mx-auto gap-4">
         <RecipeReviewCard
           number="1/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQGhgWjorWYseA/feedshare-shrink_1280/0/1654395297649?e=1671667200&v=beta&t=zGwQy6_v2dR2BOx9nurYLa5DfRKrVCsAJezefYsXUWc"
+          image={selectCSS}
           title="What is a selector?"
           dicreption={`${selector.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_css-activity-6939036818143092736-zne7?utm_source=share&utm_medium=member_desktop"
         />
         <RecipeReviewCard
           number="2/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQFF6IqH7NyBNQ/feedshare-shrink_1280/0/1654512470537?e=1671667200&v=beta&t=XoQgQkHV8FrLqBRXdqMhLXPWxDwgxsrmkvjKexv7yoY"
+          image={mathFunJS}
           title="What is Math Functions?"
           dicreption={`${math.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_javascript-activity-6939528331692244992-byBi?utm_source=share&utm_medium=member_desktop"
         />
         <RecipeReviewCard
           number="3/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQEraOyjCGyJ6g/feedshare-shrink_1280/0/1655186766749?e=1671667200&v=beta&t=XvRN0S63rbXc5nRZXp-m9AgwsoOoQHdkt_M5mfq1zeM"
+          image={stringFunJS}
           title="What is String Functions?"
           dicreption={`${string.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_javascript-activity-6942356516209324032-T5Or?utm_source=share&utm_medium=member_desktop"
         />
         <RecipeReviewCard
           number="4/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQF5C_gugBskgQ/feedshare-shrink_1280/0/1655577549125?e=1671667200&v=beta&t=xtnewFEIbIZcYOPdyeGga917YXqRx_ygQPjjFMVd8OM"
+          image={arryFunJS}
           title="What is Array Functions?"
           dicreption={`${arry.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_javascript-activity-6943995566615859201-xcoQ?utm_source=share&utm_medium=member_desktop"
@@ -62,14 +68,14 @@ higher order comp , render props , context Api , and Pure Comp`;
         />
         <RecipeReviewCard
           number="6/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQEVR-FCXlm04w/feedshare-shrink_800/0/1665461049736?e=1671667200&v=beta&t=7gWy0HAwdegFboOUIrTOmD7Pdb3fND2WJniNx70Nj0o"
+          image={numFunJS}
           title="What is Sugar Numbers?"
           dicreption={`${suger.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_reactjs-export-commerce-activity-6985449949022810112--lch?utm_source=share&utm_medium=member_desktop"
         />
         <RecipeReviewCard
           number="7/10"
-          image="https://media-exp1.licdn.com/dms/image/C4D22AQGo7F4RMXN2iQ/feedshare-shrink_1280/0/1666701543417?e=1671667200&v=beta&t=lD3A54-L5c-mH5Svpxy4McErzIx-X6apyya2vd_gc90"
+          image={backReact5}
           title="Who are Top 5 React BackEnd?"
           dicreption={`${reactBackend.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_react-nodejs-expressjs-activity-6990652975006273536-3swl?utm_source=share&utm_medium=member_desktop"
