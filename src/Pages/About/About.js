@@ -62,7 +62,7 @@ const About = () => {
           <div className="contenarTitle">
             <div className="d-flex align-items-center ">
               <h1 className="text-danger fw-bold m-0">Education </h1>
-              <span className="fs-1 fw-bold">:-</span>
+              <span className="fs-1 fw-bold">:</span>
             </div>
             <p className="fs-6 ms-2 fw-bolder">
               Bachelor of Management Information Systems - Misr Higher Institute
@@ -72,7 +72,7 @@ const About = () => {
           <div className="contenarTitle">
             <div className="d-flex  align-items-center ">
               <h1 className="text-danger m-0 fw-bold">Experience </h1>
-              <span className="fs-1 fw-bold">:-</span>
+              <span className="fs-1 fw-bold">:</span>
             </div>
             <p className="fs-6 ms-2 fw-bolder">
               1) Frontend Web Developer at Ad Samy, Full-Time, April 2022 -
@@ -82,7 +82,7 @@ const About = () => {
           <div className="contenarTitle">
             <div className="d-flex align-items-center ">
               <h1 className="text-danger m-0 fw-bold">Certificates </h1>
-              <span className="fs-1 fw-bold">:-</span>
+              <span className="fs-1 fw-bold">:</span>
             </div>
             <div className="fs-6 ms-2 fw-bolder">
               <p className="m-1">1) SoloLearn certified JS Web Developer.</p>
