@@ -10,7 +10,13 @@ const PDFCV = () => {
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
-          <a href="Mahmoud-Abdullah-Anani.pdf" download="Mahmoud-Abdullah-Anani.pdf" className="fs-5 fw-bold btn btn-primary">
+          <a
+            href="https://www.docdroid.net/file/download/zhiEv8Q/mahmoud-abdullah-anani-pdf.pdf"
+            download='Mahmoud-Abdullah-Anani.pdf'
+            target={"_blank"}
+            rel="noreferrer"
+            className="fs-5 fw-bold btn btn-primary"
+          >
             Download My CV
           </a>
         </a>
