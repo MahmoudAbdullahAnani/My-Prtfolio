@@ -10,9 +10,9 @@ const PDFCV = () => {
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
-          <button type="button" download="Mahmoud-Abdullah-Anani.pdf" className="fs-5 fw-bold btn btn-primary">
+          <a href="Mahmoud-Abdullah-Anani.pdf" download="Mahmoud-Abdullah-Anani.pdf" className="fs-5 fw-bold btn btn-primary">
             Download My CV
-          </button>
+          </a>
         </a>
       </div>
     </fragment>
