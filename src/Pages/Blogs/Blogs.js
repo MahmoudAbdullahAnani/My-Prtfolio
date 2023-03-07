@@ -4,13 +4,14 @@ import githubVS from "../../Image/Blogs/github-vs.jpg";
 import Hoisting from "../../Image/Blogs/305101572_174922891764007_2480689577101089611_n.jpg";
 import roadmapreact from "../../Image/Blogs/roadmap-react.jpg";
 import reactStyles from "../../Image/Blogs/React-Styles.jpeg";
-import "./Blogs.css";
 import selectCSS from "../../Image/Blogs/selector.png";
 import mathFunJS from "../../Image/Blogs/JavaScript-Math-Functions.jpg";
 import stringFunJS from "../../Image/Blogs/JavaScript-String-Functions.jpg";
 import arryFunJS from "../../Image/Blogs/array-js.jpg";
 import numFunJS from "../../Image/Blogs/number-formatting-in-javascript.webp";
 import backReact5 from "../../Image/Blogs/back-react.jpg";
+import { motion } from "framer-motion";
+
 const Blogs = () => {
   const selector = `You have met selectors already. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.`;
   const math = `Math is a built-in object that has properties and methods for mathematical constants and functions. It's not a function object.`;
@@ -30,7 +31,13 @@ higher order comp , render props , context Api , and Pure Comp`;
   return (
     <div className="bg-dark ">
       {/* propses: number, image, title, dicreption LinkedIn */}
-      <div className="container py-4 row justify-content-around mx-auto gap-4">
+      <motion.div
+        initial={{ x: "-100vw", opacity: 0 }}
+        animate={{ x: -100, opacity: 1 }}
+        transition={{ duration: 0.7, type: "just" }}
+        whileInView={{ x: 0 }}
+        className="container py-4 row justify-content-around mx-auto gap-4"
+      >
         <RecipeReviewCard
           number="1/10"
           image={selectCSS}
@@ -101,7 +108,7 @@ higher order comp , render props , context Api , and Pure Comp`;
           dicreption={`${reactStylesTest.slice(0, 60)}...`}
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_mahmoudabrabdullah-css-react-activity-6999455925077962752-2hI8?utm_source=share&utm_medium=member_desktop"
         />
-      </div>
+      </motion.div>
     </div>
   );
 };

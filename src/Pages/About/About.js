@@ -21,29 +21,58 @@ import dom from "../../Image/Skills/Dom.jpg";
 import ajax from "../../Image/Skills/AJAX_logo_by_gengns.svg.png";
 import tailwind from "../../Image/Skills/tailwind.png";
 import wowjs from "../../Image/Skills/wow-logo.jpg";
+import framerMotion from "../../Image/Skills/framerMotion.png";
 import InformationMe from "../../Data/InformationMe";
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="text-white bg-dark">
       <div className="row  container justify-content-around ">
         <div className="col-11 mt-5 col-md-5 mt-lg-4">
-          <div className="">
-            <div className="Image-Avatr max-w-75">
+          <motion.div
+            initial={{ x: "-100vw", opacity: 0 }}
+            animate={{ x: -100, opacity: 1 }}
+            transition={{ damping: 20, duration: 0.6, type: "just" }}
+            whileInView={{ x: 0 }}
+          >
+            <motion.div
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
+              transition={{ damping: 20, duration: 0.6, type: "just" }}
+              whileInView={{ x: 0 }}
+              className="Image-Avatr max-w-75"
+            >
               <img
                 src={logo}
                 className="w-100 rounded"
                 alt="Mahmoud Abdullah Anani"
               />
-            </div>
+            </motion.div>
             <InformationMe />
-          </div>
+          </motion.div>
         </div>
         <div className="col-11 col-md-6 mt-lg-4">
-          <div className="contenarTitle">
-            <div className="d-flex align-items-center ">
+          <motion.div
+            initial={{ x: "100vw", opacity: 0 }}
+            animate={{ x: 100, opacity: 1 }}
+            transition={{ damping: 20, duration: 0.6, type: "just" }}
+            whileInView={{ x: 0 }}
+            className="contenarTitle"
+          >
+            <motion.div
+              initial={{ x: "100vw", opacity: 0 }}
+              animate={{ x: 100, opacity: 1 }}
+              transition={{
+                damping: 20,
+                duration: 0.6,
+                type: "just",
+              }}
+              whileInView={{ x: 0 }}
+              className="d-flex align-items-center "
+            >
               <h1 className="text-danger fw-bold m-0">Who am I &nbsp;</h1>
               <span className="fs-1 contenarTitleSpan fw-bold"> ?</span>
-            </div>
+            </motion.div>
             <p className="fs-6 ms-2 fw-bolder">
               Hello there, My name is Mahmoud Abdullah Anani, I'm a 2-year
               experienced React.js Frontend Web Developer who enjoys building
@@ -58,33 +87,103 @@ const About = () => {
               So I'm always seeking to have an opportunity that matches my
               skills, to make the best use of all what I have learned.
             </p>
-          </div>
-          <div className="contenarTitle">
-            <div className="d-flex align-items-center ">
+          </motion.div>
+          <motion.div
+            initial={{ x: "100vw", opacity: 0 }}
+            animate={{ x: 100, opacity: 1 }}
+            transition={{
+              damping: 20,
+              duration: 0.6,
+              type: "tween",
+            }}
+            whileInView={{ x: 0 }}
+            className="contenarTitle"
+          >
+            <motion.div
+              initial={{ x: "100vw", opacity: 0 }}
+              animate={{ x: 100, opacity: 1 }}
+              transition={{
+                damping: 20,
+                duration: 0.6,
+                type: "tween",
+              }}
+              whileInView={{ x: 0 }}
+              className="d-flex align-items-center "
+            >
               <h1 className="text-danger fw-bold m-0">Education </h1>
               <span className="fs-1 fw-bold">:</span>
-            </div>
+            </motion.div>
             <p className="fs-6 ms-2 fw-bolder">
               Bachelor of Management Information Systems - Misr Higher Institute
               of Commerce and Computers - 2019 - 2022.
             </p>
-          </div>
-          <div className="contenarTitle">
-            <div className="d-flex  align-items-center ">
+          </motion.div>
+          <motion.div
+            initial={{ x: "100vw", opacity: 0 }}
+            animate={{ x: 100, opacity: 1 }}
+            transition={{
+              damping: 20,
+              duration: 0.6,
+              type: "tween",
+            }}
+            whileInView={{ x: 0 }}
+            className="contenarTitle"
+          >
+            <motion.div
+              initial={{ x: "100vw", opacity: 0 }}
+              animate={{ x: 100, opacity: 1 }}
+              transition={{
+                damping: 20,
+                duration: 0.6,
+                type: "tween",
+              }}
+              whileInView={{ x: 0 }}
+              className="d-flex  align-items-center "
+            >
               <h1 className="text-danger m-0 fw-bold">Experience </h1>
               <span className="fs-1 fw-bold">:</span>
-            </div>
+            </motion.div>
             <p className="fs-6 ms-2 fw-bolder">
               1) Frontend Web Developer at Ad Samy, Full-Time, April 2022 -
               Mar2022 & Jun2022.
             </p>
-          </div>
-          <div className="contenarTitle">
-            <div className="d-flex align-items-center ">
+          </motion.div>
+          <motion.div
+            initial={{ x: "100vw", opacity: 0 }}
+            animate={{ x: 100, opacity: 1 }}
+            transition={{
+              damping: 20,
+              duration: 0.6,
+              type: "tween",
+            }}
+            whileInView={{ x: 0 }}
+            className="contenarTitle"
+          >
+            <motion.div
+              initial={{ x: "100vw", opacity: 0 }}
+              animate={{ x: 100, opacity: 1 }}
+              transition={{
+                damping: 20,
+                duration: 0.6,
+                type: "tween",
+              }}
+              whileInView={{ x: 0 }}
+              className="d-flex align-items-center "
+            >
               <h1 className="text-danger m-0 fw-bold">Certificates </h1>
               <span className="fs-1 fw-bold">:</span>
-            </div>
-            <div className="fs-6 ms-2 fw-bolder">
+            </motion.div>
+            <motion.div
+              initial={{ x: "100vw", opacity: 0 }}
+              animate={{ x: 100, opacity: 1 }}
+              transition={{
+                damping: 20,
+                duration: 0.6,
+                type: "tween",
+              }}
+              whileInView={{ x: 0 }}
+              className="fs-6 ms-2 fw-bolder"
+            >
               <p className="m-1">1) SoloLearn certified JS Web Developer.</p>
               <p className="m-1">
                 2) SoloLearn certified Frontend Web Developer.
@@ -97,16 +196,34 @@ const About = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn btn-info">
+                  <motion.button
+                    transition={{ duration: 0.5 }}
+                    whileHover={{
+                      scale: 1.2,
+                      rotateZ: [
+                        0, 0, 50, 80, 100, 150, 180, 250, 300, 360, 0, 0,
+                      ],
+                    }}
+                    type="button"
+                    className="btn btn-info"
+                  >
                     View More
-                  </button>
+                  </motion.button>
                 </a>
               </div>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </div>
       </div>
-      <p className="fs-1 fw-bold text-center mt-5">My Skills</p>
+      <motion.p
+        initial={{ x: "-100vw", opacity: 0 }}
+        animate={{ x: -100, opacity: 1 }}
+        transition={{ duration: 0.7, type: "spring", stiffness: 90 }}
+        whileInView={{ x: 0 }}
+        className="fs-1 fw-bold text-center mt-5"
+      >
+        My Skills
+      </motion.p>
       <div className="m-auto">
         <div className="d-flex gap-3 py-5 col-12 flex-wrap container justify-content-start">
           <Skill src={html} alt="html" skill="HTML5" />
@@ -127,6 +244,7 @@ const About = () => {
           <Skill src={ajax} alt="AJAX" skill="Ajax" />
           <Skill src={tailwind} alt="Tailwind" skill="Tailwind" />
           <Skill src={wowjs} alt="wowjs" skill="WOW JS" />
+          <Skill src={framerMotion} alt="Framer Motion" skill="Framer Motion" />
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Swal from "sweetalert2";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const ContactUs = () => {
   const [value, setValue] = React.useState(2);
@@ -94,7 +95,11 @@ const ContactUs = () => {
           />
         </Box>
       </div>
-      <input
+      <motion.input
+        initial={{ x: "-100vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.7, type: "keyframes", delay: 0.7, stiffness:100 }}
+        whileInView={{ x: 0 }}
         type="submit"
         className="w-100 mt-1  text-white py-2 mb-5 px-3 border-0 rounded bg-primary "
         value="Send"

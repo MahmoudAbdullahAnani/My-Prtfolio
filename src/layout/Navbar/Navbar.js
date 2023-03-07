@@ -10,6 +10,8 @@ import BookIcon from "@mui/icons-material/Book";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import { NavLink, useNavigate } from "react-router-dom";
 import Logo from "../../Image/logos/44.png";
+import { motion } from "framer-motion";
+
 const LargNavbar = (props) => {
   const [value, setValue] = React.useState("recents");
   const handleChange = (event, newValue) => {
@@ -64,17 +66,36 @@ const LargNavbar = (props) => {
           <div className="container">
             <div className="logo w-100 relative d-flex justify-content-between">
               <div className="navbar-brand d-flex align-items-center logoText fw-bolder ">
-                <div className="d-inline logoNav">
+                <motion.div
+                  initial={{ x: "-100vw", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{
+                    damping: 100,
+                    duration: 0.7,
+                    type: "keyframes",
+                    delay:.7
+                  }}
+                  className="d-inline logoNav"
+                >
                   <img
                     src={Logo}
                     className="w-100"
                     alt="logo-mahmoud-abdullah-anani"
                   />
-                </div>
-                <div className="mt-2">
+                </motion.div>
+                <motion.div
+                  initial={{ x: "-100vw", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{
+                    damping: 100,
+                    duration: 0.7,
+                    type: "keyframes",
+                  }}
+                  className="mt-2"
+                >
                   <span className="text-danger">M</span>y{" "}
                   <span className="text-danger">P</span>ortfolo
-                </div>
+                </motion.div>
               </div>
               <button
                 className="navbar-toggler"
@@ -88,7 +109,10 @@ const LargNavbar = (props) => {
                 <span className="navbar-toggler-icon"></span>
               </button>
             </div>
-            <div
+            <motion.div
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ damping: 100, duration: 0.7, type: "keyframes" }}
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
@@ -135,7 +159,7 @@ const LargNavbar = (props) => {
                   </NavLink>
                 </li>
               </ul>
-            </div>
+            </motion.div>
           </div>
         </nav>
       )}
