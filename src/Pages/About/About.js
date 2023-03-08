@@ -53,15 +53,15 @@ const About = () => {
         </div>
         <div className="col-11 col-md-6 mt-lg-4">
           <motion.div
-            initial={{ x: "100vw", opacity: 0 }}
-            animate={{ x: 100, opacity: 1 }}
+            initial={{ x: "-100vw", opacity: 0 }}
+            animate={{ x: -100, opacity: 1 }}
             transition={{ damping: 20, duration: 0.6, type: "just" }}
             whileInView={{ x: 0 }}
             className="contenarTitle"
           >
             <motion.div
-              initial={{ x: "100vw", opacity: 0 }}
-              animate={{ x: 100, opacity: 1 }}
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
               transition={{
                 damping: 20,
                 duration: 0.6,
@@ -89,8 +89,8 @@ const About = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ x: "100vw", opacity: 0 }}
-            animate={{ x: 100, opacity: 1 }}
+            initial={{ x: "-100vw", opacity: 0 }}
+            animate={{ x: -100, opacity: 1 }}
             transition={{
               damping: 20,
               duration: 0.6,
@@ -100,8 +100,8 @@ const About = () => {
             className="contenarTitle"
           >
             <motion.div
-              initial={{ x: "100vw", opacity: 0 }}
-              animate={{ x: 100, opacity: 1 }}
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
               transition={{
                 damping: 20,
                 duration: 0.6,
@@ -119,8 +119,8 @@ const About = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ x: "100vw", opacity: 0 }}
-            animate={{ x: 100, opacity: 1 }}
+            initial={{ x: "-100vw", opacity: 0 }}
+            animate={{ x: -100, opacity: 1 }}
             transition={{
               damping: 20,
               duration: 0.6,
@@ -130,8 +130,8 @@ const About = () => {
             className="contenarTitle"
           >
             <motion.div
-              initial={{ x: "100vw", opacity: 0 }}
-              animate={{ x: 100, opacity: 1 }}
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
               transition={{
                 damping: 20,
                 duration: 0.6,
@@ -149,8 +149,8 @@ const About = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ x: "100vw", opacity: 0 }}
-            animate={{ x: 100, opacity: 1 }}
+            initial={{ x: "-100vw", opacity: 0 }}
+            animate={{ x: -100, opacity: 1 }}
             transition={{
               damping: 20,
               duration: 0.6,
@@ -160,8 +160,8 @@ const About = () => {
             className="contenarTitle"
           >
             <motion.div
-              initial={{ x: "100vw", opacity: 0 }}
-              animate={{ x: 100, opacity: 1 }}
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
               transition={{
                 damping: 20,
                 duration: 0.6,
@@ -174,8 +174,8 @@ const About = () => {
               <span className="fs-1 fw-bold">:</span>
             </motion.div>
             <motion.div
-              initial={{ x: "100vw", opacity: 0 }}
-              animate={{ x: 100, opacity: 1 }}
+              initial={{ x: "-100vw", opacity: 0 }}
+              animate={{ x: -100, opacity: 1 }}
               transition={{
                 damping: 20,
                 duration: 0.6,
