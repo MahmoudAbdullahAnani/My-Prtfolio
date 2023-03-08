@@ -25,8 +25,8 @@ const Projects = () => {
           image={ecommers}
           title="Flashye"
           discraption="A website for selling clothes, you can order the product and shop through this website."
-          github="https://github.com/MahmoudAbdullahAnani/Full-Ecommers"
-          dom="https://full-ecommers.vercel.app/"
+          github="https://github.com/MahmoudAbdullahAnani/e-commers-flashye"
+          dom="https://e-commers-flashye.vercel.app/"
         />
         <RecipeReviewCard
           number="2/6"
