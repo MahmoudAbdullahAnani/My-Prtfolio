@@ -11,8 +11,8 @@ const PDFCV = () => {
           rel="noreferrer"
         >
           <a
-            href="https://www.docdroid.net/file/download/zhiEv8Q/mahmoud-abdullah-anani-pdf.pdf"
-            download='Mahmoud-Abdullah-Anani.pdf'
+            href="https://www.docdroid.net/file/download/6sJRKRB/mahmoud-abdullah-pdf.pdf"
+            download="Mahmoud-Abdullah-Anani.pdf"
             target={"_blank"}
             rel="noreferrer"
             className="fs-5 fw-bold btn btn-primary"
