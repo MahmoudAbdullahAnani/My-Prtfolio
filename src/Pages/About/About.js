@@ -22,8 +22,12 @@ import ajax from "../../Image/Skills/AJAX_logo_by_gengns.svg.png";
 import tailwind from "../../Image/Skills/tailwind.png";
 import wowjs from "../../Image/Skills/wow-logo.jpg";
 import framerMotion from "../../Image/Skills/framerMotion.png";
+
+
 import InformationMe from "../../Data/InformationMe";
 import { motion } from "framer-motion";
+
+
 const About = () => {
   return (
     <div className="text-white bg-dark">
@@ -31,15 +35,15 @@ const About = () => {
         <div className="col-11 mt-5 col-md-5 mt-lg-4">
           <motion.div
             initial={{ x: "-100vw", opacity: 0 }}
-            animate={{ x: -100, opacity: 1 }}
-            transition={{ damping: 20, duration: 0.6, type: "just" }}
-            whileInView={{ x: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ damping: 20, duration: 0.9, type: "just" }}
+            
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
-              transition={{ damping: 20, duration: 0.6, type: "just" }}
-              whileInView={{ x: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ damping: 20, duration: 0.9, type: "just" }}
+              
               className="Image-Avatr max-w-75"
             >
               <img
@@ -54,20 +58,20 @@ const About = () => {
         <div className="col-11 col-md-6 mt-lg-4">
           <motion.div
             initial={{ x: "-100vw", opacity: 0 }}
-            animate={{ x: -100, opacity: 1 }}
-            transition={{ damping: 20, duration: 0.6, type: "just" }}
-            whileInView={{ x: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ damping: 20, duration: 0.9, type: "just" }}
+            
             className="contenarTitle"
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{
                 damping: 20,
-                duration: 0.6,
+                duration: 0.9,
                 type: "just",
               }}
-              whileInView={{ x: 0 }}
+              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger fw-bold m-0">Who am I &nbsp;</h1>
@@ -90,24 +94,24 @@ const About = () => {
           </motion.div>
           <motion.div
             initial={{ x: "-100vw", opacity: 0 }}
-            animate={{ x: -100, opacity: 1 }}
+            animate={{ x: 0, opacity: 1 }}
             transition={{
               damping: 20,
-              duration: 0.6,
+              duration: 0.9,
               type: "tween",
             }}
-            whileInView={{ x: 0 }}
+            
             className="contenarTitle"
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{
                 damping: 20,
-                duration: 0.6,
+                duration: 0.9,
                 type: "tween",
               }}
-              whileInView={{ x: 0 }}
+              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger fw-bold m-0">Education </h1>
@@ -120,24 +124,24 @@ const About = () => {
           </motion.div>
           <motion.div
             initial={{ x: "-100vw", opacity: 0 }}
-            animate={{ x: -100, opacity: 1 }}
+            animate={{ x: 0, opacity: 1 }}
             transition={{
               damping: 20,
-              duration: 0.6,
+              duration: 0.9,
               type: "tween",
             }}
-            whileInView={{ x: 0 }}
+            
             className="contenarTitle"
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{
                 damping: 20,
-                duration: 0.6,
+                duration: 0.9,
                 type: "tween",
               }}
-              whileInView={{ x: 0 }}
+              
               className="d-flex  align-items-center "
             >
               <h1 className="text-danger m-0 fw-bold">Experience </h1>
@@ -150,24 +154,24 @@ const About = () => {
           </motion.div>
           <motion.div
             initial={{ x: "-100vw", opacity: 0 }}
-            animate={{ x: -100, opacity: 1 }}
+            animate={{ x: 0, opacity: 1 }}
             transition={{
               damping: 20,
-              duration: 0.6,
+              duration: 0.9,
               type: "tween",
             }}
-            whileInView={{ x: 0 }}
+            
             className="contenarTitle"
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{
                 damping: 20,
-                duration: 0.6,
+                duration: 0.9,
                 type: "tween",
               }}
-              whileInView={{ x: 0 }}
+              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger m-0 fw-bold">Certificates </h1>
@@ -175,13 +179,13 @@ const About = () => {
             </motion.div>
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
-              animate={{ x: -100, opacity: 1 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{
                 damping: 20,
-                duration: 0.6,
+                duration: 0.9,
                 type: "tween",
               }}
-              whileInView={{ x: 0 }}
+              
               className="fs-6 ms-2 fw-bolder"
             >
               <p className="m-1">1) SoloLearn certified JS Web Developer.</p>
@@ -217,9 +221,9 @@ const About = () => {
       </div>
       <motion.p
         initial={{ x: "-100vw", opacity: 0 }}
-        animate={{ x: -100, opacity: 1 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.7, type: "spring", stiffness: 90 }}
-        whileInView={{ x: 0 }}
+        
         className="fs-1 fw-bold text-center mt-5"
       >
         My Skills
