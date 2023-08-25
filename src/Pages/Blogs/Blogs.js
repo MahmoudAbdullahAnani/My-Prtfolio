@@ -109,6 +109,17 @@ higher order comp , render props , context Api , and Pure Comp`;
           LinkedIn="https://www.linkedin.com/posts/mahmoud-abdullah-ab253920b_mahmoudabrabdullah-css-react-activity-6999455925077962752-2hI8?utm_source=share&utm_medium=member_desktop"
         />
       </motion.div>
+      <div className="m-0 text-white text-center ">
+        <button type="button" className="btn btn-link">
+          <a
+            type="button"
+            className="btn btn-link"
+            href="https://www.linkedin.com/in/mahmoud-abdullah-ab253920b/recent-activity/all/"
+          >
+            Follow me on Linkedin
+          </a>
+        </button>
+      </div>
     </div>
   );
 };

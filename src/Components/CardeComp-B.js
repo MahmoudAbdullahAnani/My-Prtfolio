@@ -51,7 +51,7 @@ export default function RecipeReviewCard(props) {
               <GitHubIcon className="fs-2 text-dark" />
             </a>
           </IconButton>
-          <a href={props.dom}>
+          <a href={props.dom} target="_blank" rel="noreferrer">
             <button className="btn btn-info">viow Dom</button>
           </a>
         </CardActions>

@@ -23,9 +23,23 @@ import tailwind from "../../Image/Skills/tailwind.png";
 import wowjs from "../../Image/Skills/wow-logo.jpg";
 import framerMotion from "../../Image/Skills/framerMotion.png";
 
+import oop from "../../Image/Skills/oop.png";
+import mySql from "../../Image/Skills/mySql.jpg"
+import sql from "../../Image/Skills/sql.png";
+import php from "../../Image/Skills/php.png";
+
+
 
 import InformationMe from "../../Data/InformationMe";
 import { motion } from "framer-motion";
+
+const nodejs = "https://nodejs.org/static/images/logo.svg";
+const mongodb =
+"https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress";
+const expressValidation = "https://express-validator.github.io/img/logo.svg";
+const expressLogo = "https://expressjs.com/images/favicon.png";
+const erd =
+  "https://cdn-images.visual-paradigm.com/home/15.0/vp_logo_header.png";
 
 
 const About = () => {
@@ -37,13 +51,11 @@ const About = () => {
             initial={{ x: "-100vw", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ damping: 20, duration: 0.9, type: "just" }}
-            
           >
             <motion.div
               initial={{ x: "-100vw", opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ damping: 20, duration: 0.9, type: "just" }}
-              
               className="Image-Avatr max-w-75"
             >
               <img
@@ -60,7 +72,6 @@ const About = () => {
             initial={{ x: "-100vw", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ damping: 20, duration: 0.9, type: "just" }}
-            
             className="contenarTitle"
           >
             <motion.div
@@ -71,7 +82,6 @@ const About = () => {
                 duration: 0.9,
                 type: "just",
               }}
-              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger fw-bold m-0">Who am I &nbsp;</h1>
@@ -100,7 +110,6 @@ const About = () => {
               duration: 0.9,
               type: "tween",
             }}
-            
             className="contenarTitle"
           >
             <motion.div
@@ -111,7 +120,6 @@ const About = () => {
                 duration: 0.9,
                 type: "tween",
               }}
-              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger fw-bold m-0">Education </h1>
@@ -130,7 +138,6 @@ const About = () => {
               duration: 0.9,
               type: "tween",
             }}
-            
             className="contenarTitle"
           >
             <motion.div
@@ -141,7 +148,6 @@ const About = () => {
                 duration: 0.9,
                 type: "tween",
               }}
-              
               className="d-flex  align-items-center "
             >
               <h1 className="text-danger m-0 fw-bold">Experience </h1>
@@ -160,7 +166,6 @@ const About = () => {
               duration: 0.9,
               type: "tween",
             }}
-            
             className="contenarTitle"
           >
             <motion.div
@@ -171,7 +176,6 @@ const About = () => {
                 duration: 0.9,
                 type: "tween",
               }}
-              
               className="d-flex align-items-center "
             >
               <h1 className="text-danger m-0 fw-bold">Certificates </h1>
@@ -185,7 +189,6 @@ const About = () => {
                 duration: 0.9,
                 type: "tween",
               }}
-              
               className="fs-6 ms-2 fw-bolder"
             >
               <p className="m-1">1) SoloLearn certified JS Web Developer.</p>
@@ -223,7 +226,6 @@ const About = () => {
         initial={{ x: "-100vw", opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.7, type: "spring", stiffness: 90 }}
-        
         className="fs-1 fw-bold text-center mt-5"
       >
         My Skills
@@ -249,6 +251,20 @@ const About = () => {
           <Skill src={tailwind} alt="Tailwind" skill="Tailwind" />
           <Skill src={wowjs} alt="wowjs" skill="WOW JS" />
           <Skill src={framerMotion} alt="Framer Motion" skill="Framer Motion" />
+
+          <Skill src={nodejs} alt="nodejs" skill="Nodejs" />
+          <Skill src={mongodb} alt="mongodb" skill="Mongodb" />
+          <Skill src={php} alt="php" skill="PHP" />
+          <Skill src={oop} alt="oop" skill="OOP" />
+          <Skill src={mySql} alt="mySql" skill="MySql" />
+          <Skill src={sql} alt="sql" skill="SQL" />
+          <Skill src={erd} alt="erd" skill="ERD" />
+          <Skill src={expressLogo} alt="express" skill="Express" />
+          <Skill
+            src={expressValidation}
+            alt="express"
+            skill="Express Validation"
+          />
         </div>
       </div>
     </div>
