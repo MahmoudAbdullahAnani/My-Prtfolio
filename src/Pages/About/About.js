@@ -1,6 +1,6 @@
 import React from "react";
 import Skill from "../../Components/Skill";
-import logo from "../../Image/Home-Avtar-2.jpg";
+import logo from "../../Image/Home-Avtar.jpg";
 import "./About.css";
 // Get All Skills for Images
 import html from "../../Image/Skills/html.png";
