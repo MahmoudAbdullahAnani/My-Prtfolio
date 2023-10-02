@@ -5,13 +5,13 @@ const PDFCV = () => {
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
-          href="https://fuzzy-lion-singlet.cyclic.cloud/cv/Mahmoud-Abdullah.pdf"
+          href="https://octopus-shop.onrender.com/cv/Mahmoud-Abdullah.pdf"
           className=""
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
           <a
-            href="https://fuzzy-lion-singlet.cyclic.cloud/cv/Mahmoud-Abdullah.pdf"
+            href="https://octopus-shop.onrender.com/cv/Mahmoud-Abdullah.pdf"
             download="Mahmoud-Abdullah-Anani.pdf"
             target={"_blank"}
             rel="noreferrer"
