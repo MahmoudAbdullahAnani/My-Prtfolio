@@ -19,10 +19,10 @@ const ContactUs = () => {
     if (Name !== '' & Email !== '') {
     emailjs
       .sendForm(
-        "service_mrbbap9",
-        "template_ei3o3dh",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        "zLD4B1n0hmqq4g8E1"
+        process.env.REACT_APP_YOUR_YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {

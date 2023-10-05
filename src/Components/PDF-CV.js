@@ -1,7 +1,7 @@
 import React from "react";
 const PDFCV = () => {
   return (
-    <fragment>
+    <React.Fragment>
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
@@ -21,7 +21,7 @@ const PDFCV = () => {
           </a>
         </a>
       </div>
-    </fragment>
+    </React.Fragment>
   );
 }
  
