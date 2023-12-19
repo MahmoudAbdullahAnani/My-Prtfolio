@@ -192,7 +192,7 @@ export const allProjects = () => {
   return (
     <div className="container py-4 row justify-content-around mx-auto gap-4">
       <RecipeReviewCard
-        number={`1/${totalBackProjects}`}
+        number={`1/${totalProjects}`}
         image={
           "https://res.cloudinary.com/postman/image/upload/t_team_logo_pubdoc/v1/team/f76265ed2c1462fc7efab45b577787216ae6fb953d45ec65947b7255ee8d033c"
         }
