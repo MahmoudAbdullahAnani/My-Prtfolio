@@ -5,13 +5,13 @@ const PDFCV = () => {
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
-          href="https://octopus-shop.onrender.com/cv/Mahmoud-Abdullah.pdf"
+          href="https://drive.google.com/file/d/1uKIs3fxGrHm5gxuIVMqPl3hJIyW4me7-/view"
           className=""
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
           <a
-            href="https://octopus-shop.onrender.com/cv/Mahmoud-Abdullah.pdf"
+            href="https://drive.google.com/file/d/1uKIs3fxGrHm5gxuIVMqPl3hJIyW4me7-/view"
             download="Mahmoud-Abdullah-Anani.pdf"
             target={"_blank"}
             rel="noreferrer"
