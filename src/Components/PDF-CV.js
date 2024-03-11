@@ -5,13 +5,13 @@ const PDFCV = () => {
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1uKIs3fxGrHm5gxuIVMqPl3hJIyW4me7-/view"
+          href="https://drive.google.com/file/d/1WcV_HNCAoFaxd1CiEFwKbCSDqka072_y/view"
           className=""
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
           <a
-            href="https://drive.google.com/file/d/1uKIs3fxGrHm5gxuIVMqPl3hJIyW4me7-/view"
+            href="https://drive.google.com/file/d/1WcV_HNCAoFaxd1CiEFwKbCSDqka072_y/view"
             download="Mahmoud-Abdullah-Anani.pdf"
             target={"_blank"}
             rel="noreferrer"
