@@ -5,13 +5,13 @@ const PDFCV = () => {
       <div className="mt-4 ms-xs-auto ms-md-5">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1WcV_HNCAoFaxd1CiEFwKbCSDqka072_y/view"
+          href="https://drive.google.com/file/d/1t-U2kal-9bW7CEjJN8oG8m8EWjP9GtGj/view"
           className=""
           download="Mahmoud-Abdullah-Anani.pdf"
           rel="noreferrer"
         >
           <a
-            href="https://drive.google.com/file/d/1WcV_HNCAoFaxd1CiEFwKbCSDqka072_y/view"
+            href="https://drive.google.com/file/d/1t-U2kal-9bW7CEjJN8oG8m8EWjP9GtGj/view"
             download="Mahmoud-Abdullah-Anani.pdf"
             target={"_blank"}
             rel="noreferrer"
@@ -23,6 +23,6 @@ const PDFCV = () => {
       </div>
     </React.Fragment>
   );
-}
- 
+};
+
 export default PDFCV;
